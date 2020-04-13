@@ -1,0 +1,150 @@
+.site-footer {
+    padding: 16px 0;
+    background-image: linear-gradient(white rgb(103, 224, 194));
+    font-size: 18px;
+    color: #ccc;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    height: 40px;
+}
+
+h3 {
+    color: black;
+}
+
+li {
+    font-size: 20px;
+}
+
+.mySlides {
+    display: none;
+}
+
+.running {
+    width: 500px;
+    margin: auto;
+    height: 300px;
+    border: 0.5px solid black;
+}
+
+.running2 {
+    display: inline-block;
+}
+
+.cssblock {
+    display: inline-block;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    /* max-width: 450px; */
+    position: relative;
+    margin: auto;
+    border: 0.5px solid black;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.active {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: dimgrey;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.img-hover-zoom {
+    transition: transform .5s ease;
+}
+
+.img-hover-zoom:hover {
+    transform: scale(1.5);
+}
+
+.sidebar1 {
+    display: inline-block;
+}
+
+.sidebar2 {
+    display: inline-block;
+}
